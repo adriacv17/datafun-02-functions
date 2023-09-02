@@ -1,0 +1,31 @@
+2023-09-01 20:22:27,470.user_math_adrian.INFO ==================================================
+2023-09-01 20:22:27,470.user_math_adrian.INFO Today is 2023-09-01 at 08:22 PM
+2023-09-01 20:22:27,491.user_math_adrian.INFO Running on: nt Windows 10
+2023-09-01 20:22:27,491.user_math_adrian.INFO Python version:  3.11.4
+2023-09-01 20:22:27,491.user_math_adrian.INFO Python path: C:\Program Files\Python311
+2023-09-01 20:22:27,491.user_math_adrian.INFO Working dir: C:\Users\adria\Module01\IntroToPython-master\datafun-02-functions
+2023-09-01 20:22:27,491.user_math_adrian.INFO ==================================================
+2023-09-01 20:22:27,491.user_math_adrian.INFO Explore some functions in the math module
+2023-09-01 20:22:27,491.user_math_adrian.INFO math.comb(5,1) = 5
+2023-09-01 20:22:27,491.user_math_adrian.INFO math.perm(5,1) = 5
+2023-09-01 20:22:27,491.user_math_adrian.INFO math.comb(5,3) = 10
+2023-09-01 20:22:27,491.user_math_adrian.INFO math.perm(5,3) = 60
+2023-09-01 20:22:27,491.user_math_adrian.INFO math.pi = 3.141592653589793
+2023-09-01 20:22:27,491.user_math_adrian.INFO math.degrees(2 * math.pi) = 360.0
+2023-09-01 20:22:27,493.user_math_adrian.INFO math.radians(180)         = 3.141592653589793
+2023-09-01 20:22:27,493.user_math_adrian.INFO 
+2023-09-01 20:22:27,493.user_math_adrian.INFO TRY: Call area_of_office() function with different values.
+2023-09-01 20:22:27,493.user_math_adrian.INFO The office area is 150 sqft
+2023-09-01 20:22:27,493.user_math_adrian.INFO The office area is 225 sqft
+2023-09-01 20:22:27,493.user_math_adrian.INFO The office area is 144 sqft
+2023-09-01 20:22:27,493.user_math_adrian.INFO 
+2023-09-01 20:22:27,493.user_math_adrian.INFO TRY: Call get_parameter() function with a list of office side measurements
+2023-09-01 20:22:27,493.user_math_adrian.INFO The office parameter is 51.0 ft
+2023-09-01 20:22:27,493.user_math_adrian.INFO The office parameter is 40.0 ft
+2023-09-01 20:22:27,493.user_math_adrian.INFO 
+2023-09-01 20:22:27,493.user_math_adrian.INFO TRY: Call get_avg_glucose() function with list of 12 monthly data points in mg/dl
+2023-09-01 20:22:27,493.user_math_adrian.INFO The average glucose for one year is 93.1 mg/dl
+2023-09-01 20:22:27,495.user_math_adrian.INFO 
+2023-09-01 20:22:27,495.user_math_adrian.INFO TRY: Call temp_range() function with list of temperatures in celcius 
+2023-09-01 20:22:27,495.user_math_adrian.INFO The range of temperature in the lab is 27 to 40 degrees celcius
+2023-09-01 20:22:27,495.user_math_adrian.INFO 
