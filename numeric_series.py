@@ -151,12 +151,24 @@ if __name__ == "__main__":
     
     object3 = NumericSeries(name3, units3, data3)
 
-    # log the objects created
+    #####
+    #####
+    # Create another object for Task 6###
+    #####
+    #####
+    name4 = "Hemoglobin Module 4"
+    units4 = "g/dL"
+    data4 = [7.5,8,9,14,16,16.5,16,18,4.3,5.3,5.7,6,6.1,6.2,6.2]
+
+    object4 = NumericSeries(name4, units4, data4)
+
+      # log the objects created
     logger.info(f"Created: {object1}")
     logger.info(f"Created: {object2}")
     logger.info(f"Created: {object3}")
+    logger.info(f"Created: {object4}")
 
-    object_list = [object1, object2, object3]
+    object_list = [object1, object2, object3, object4]
 
     # Loop through our objects and get some statistics
     # Rather than using a built-in function and passing in our data
@@ -171,8 +183,9 @@ if __name__ == "__main__":
     for object in object_list:
         logger.info(object)
         logger.info(f"Count: {object.count()}")
-        logger.info(f"Sum: {object.sum()}")
-        logger.info(f"Mean: {object.mean()}")
+        logger.info(f"Sum: {object.sum():.2f}")
+        logger.info(f"Mean: {object.mean():.2f}") #added :.2f to some of these measures
         logger.info(f"Median: {object.median()}")
-        logger.info("------------------")
+        logger.info(f"Variance: {object.variance():.2f}") #added variance
+        logger.info(f"Standard Deviation: {object.standard_deviation():.2f}") #added standard deviation
 
